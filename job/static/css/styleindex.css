@@ -1,0 +1,60 @@
+
+  
+    body {
+        background-image: url('{% static'img/download.jpg' %}');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      
+     
+    }
+
+    .container {
+       
+        position: relative;
+        display: block;
+        height: 90vh;
+      }
+    
+    .center {
+     
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    background-color:gray;
+    padding: 20px;
+    opacity: 0.8;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+     
+    }
+    .main{
+      height: 10vh;
+     text-align: center;
+     align-items: center;
+      margin-top: 20px;
+      
+    }
+    .job{
+      
+      margin-top: px;
+      padding-left: 20px;
+      text-align: center;
+    }
+ .middle{
+   margin-left: 300px;
+ } 
+    .right{
+      float:right;
+    }
+    .anj{
+      margin-top: 0px;
+      padding-top: 0px;
+     
+    }
+    .joblist{
+      height: 50vh;
+      
+      text-align: center;
+      padding-top: 80px;
+    }
